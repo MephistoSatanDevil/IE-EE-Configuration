@@ -1,0 +1,561 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutText_CreatedBy" xml:space="preserve">
+    <value>This program is a fork of Nesae's IE-EE-Configuration project by MephistoSatanDevil, under the GPL-3.0 license.</value>
+  </data>
+  <data name="AboutText_SpecialThanks" xml:space="preserve">
+    <value>Special thanks to: CamDawg, skellytz, Bubb &amp;&amp; Sam. for help during development.</value>
+  </data>
+  <data name="About_Description" xml:space="preserve">
+    <value>An unofficial configuration utility for IE:EE games.
+Allows for easy changing many of the properties changeable through the Baldur.lua file.
+
+Icons provided by pixabay.com</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Infinity Engine - Enhanced Edition Configuration Utility</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="config_gear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\config_gear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="config_gear_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\config_gear_icon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Error_UnknownEngineMode" xml:space="preserve">
+    <value>Unknown engine_mode '{0}' found in engine.lua.</value>
+  </data>
+  <data name="ExtendedProgramConfigOneItem_DisableFootstepsDuringCombat" xml:space="preserve">
+    <value>Disable Footsteps During Combat</value>
+  </data>
+  <data name="ExtendedProgramConfigOneItem_DisableMovies" xml:space="preserve">
+    <value>Disable Movies</value>
+  </data>
+  <data name="ExtendedProgramConfigOneItem_StrrefOn" xml:space="preserve">
+    <value>Strref On</value>
+  </data>
+  <data name="ExtendedProgramConfigOneItem_UIEditMode" xml:space="preserve">
+    <value>UI Edit Mode</value>
+  </data>
+  <data name="ExtendedProgramConfigThreeItem_ReverseMouseWheelZoom" xml:space="preserve">
+    <value>Reverse Mouse Wheel Zoom</value>
+  </data>
+  <data name="ExtendedProgramConfigThreeItem_ShowDateOnPause" xml:space="preserve">
+    <value>Show Date On Pause</value>
+  </data>
+  <data name="ExtendedProgramConfigThreeItem_ShowTriggersOnTab" xml:space="preserve">
+    <value>Show Triggers On Tab</value>
+  </data>
+  <data name="ExtendedProgramConfigThreeItem_SuperAtomicSpeedFightingAction" xml:space="preserve">
+    <value>Super Atomic Speed Fighting Action</value>
+  </data>
+  <data name="ExtendedProgramConfigTwoItem_EnableFog" xml:space="preserve">
+    <value>Enable Fog</value>
+  </data>
+  <data name="ExtendedProgramConfigTwoItem_EnhancedPathSearch" xml:space="preserve">
+    <value>Enhanced Path Search</value>
+  </data>
+  <data name="ExtendedProgramConfigTwoItem_ExtraCombatInfo" xml:space="preserve">
+    <value>Extra Combat Info</value>
+  </data>
+  <data name="ExtendedProgramConfigTwoItem_ForceDialogPause" xml:space="preserve">
+    <value>Force Dialog Pause</value>
+  </data>
+  <data name="FooterText_ChangesSavedAutomatically" xml:space="preserve">
+    <value>All changes are saved automatically.</value>
+  </data>
+  <data name="GameName_UnknownGame" xml:space="preserve">
+    <value>Unknown Game</value>
+  </data>
+  <data name="GameSpeed_DisplayValue_Initial" xml:space="preserve">
+    <value>30 AI Updates / Sec</value>
+  </data>
+  <data name="GraphicsItem_AreaMapZoom" xml:space="preserve">
+    <value>Area Map Zoom</value>
+  </data>
+  <data name="GraphicsItem_Backend" xml:space="preserve">
+    <value>Backend</value>
+  </data>
+  <data name="GraphicsItem_EnableUIScaling" xml:space="preserve">
+    <value>Enable UI Scaling</value>
+  </data>
+  <data name="GraphicsItem_GreyscaleOnPause" xml:space="preserve">
+    <value>Greyscale On Pause</value>
+  </data>
+  <data name="GraphicsItem_HardwareMouseCursor" xml:space="preserve">
+    <value>Hardware Mouse Cursor</value>
+  </data>
+  <data name="GraphicsItem_ShowBlackSpace" xml:space="preserve">
+    <value>Show Black Space</value>
+  </data>
+  <data name="GraphicsItem_UseCharacterHighlights" xml:space="preserve">
+    <value>Use Character Highlights</value>
+  </data>
+  <data name="GraphicsItem_UseNearestNeighbourScaling" xml:space="preserve">
+    <value>Use Nearest Neighbour Scaling</value>
+  </data>
+  <data name="GraphicsItem_UseSpriteOutlines" xml:space="preserve">
+    <value>Use Sprite Outlines</value>
+  </data>
+  <data name="GraphicsItem_WindowFullscreen" xml:space="preserve">
+    <value>Window - Fullscreen</value>
+  </data>
+  <data name="GraphicsItem_WindowMaximized" xml:space="preserve">
+    <value>Window - Maximized</value>
+  </data>
+  <data name="GraphicsItem_ZoomLock" xml:space="preserve">
+    <value>Zoom Lock</value>
+  </data>
+  <data name="LabelText_AIUpdatesPerSecond" xml:space="preserve">
+    <value> AI Updates / Sec</value>
+  </data>
+  <data name="MenuItem_About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="MenuItem_AdditionalOptions" xml:space="preserve">
+    <value>Additional Options</value>
+  </data>
+  <data name="MenuItem_Backup" xml:space="preserve">
+    <value>Backup</value>
+  </data>
+  <data name="MenuItem_Check" xml:space="preserve">
+    <value>Check</value>
+  </data>
+  <data name="MenuItem_Create" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="MenuItem_Exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="MenuItem_Help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="MenuItem_OpenGitHub" xml:space="preserve">
+    <value>Open GitHub</value>
+  </data>
+  <data name="MenuItem_OpenReference" xml:space="preserve">
+    <value>Open Reference</value>
+  </data>
+  <data name="MenuItem_Refresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="MenuItem_Restore" xml:space="preserve">
+    <value>Restore</value>
+  </data>
+  <data name="MenuItem_Utility" xml:space="preserve">
+    <value>Utility</value>
+  </data>
+  <data name="MenuItem_WriteOptimalConfiguration" xml:space="preserve">
+    <value>Write Optimal Configuration</value>
+  </data>
+  <data name="MsgText_BackupCreatedSuccessfully" xml:space="preserve">
+    <value>Backup successfully created!</value>
+  </data>
+  <data name="MsgText_BackupCreationFailed" xml:space="preserve">
+    <value>Backup creation failed!</value>
+  </data>
+  <data name="MsgText_BackupDoesNotExistInfo" xml:space="preserve">
+    <value>Backup file for {0} does not exist!</value>
+  </data>
+  <data name="MsgText_BackupExistsInfo" xml:space="preserve">
+    <value>Backup file for {0} exists!
+
+Created at: {1}</value>
+  </data>
+  <data name="MsgText_BackupRestoredSuccessfully" xml:space="preserve">
+    <value>Backup successfully restored!</value>
+  </data>
+  <data name="MsgText_BackupStatus" xml:space="preserve">
+    <value>Backup Status</value>
+  </data>
+  <data name="MsgText_CannotAccessGameConfigProps" xml:space="preserve">
+    <value>Cannot access game configuration properties.</value>
+  </data>
+  <data name="MsgText_CannotCheckBackupStatus" xml:space="preserve">
+    <value>Cannot check backup status. Configuration managers are not initialized.</value>
+  </data>
+  <data name="MsgText_CannotLocateConfigManuallySelect" xml:space="preserve">
+    <value>Could not automatically locate {0}. Please select it manually.</value>
+  </data>
+  <data name="MsgText_CannotOpenExtendedConfig" xml:space="preserve">
+    <value>Cannot open extended configuration. The game configuration properties are not accessible. Please ensure the configuration file is loaded first.</value>
+  </data>
+  <data name="MsgText_CannotRefresh" xml:space="preserve">
+    <value>Cannot refresh. Configuration file is not loaded or accessible.</value>
+  </data>
+  <data name="MsgText_CannotRestoreBackup" xml:space="preserve">
+    <value>Cannot restore backup! (Backup file might not exist or be invalid)</value>
+  </data>
+  <data name="MsgText_CannotRestoreBackupManagersNotInit" xml:space="preserve">
+    <value>Cannot restore backup. Configuration managers are not initialized.</value>
+  </data>
+  <data name="MsgText_ConfigBackedUpSuccessfully" xml:space="preserve">
+    <value>Configuration has been backed up successfully.</value>
+  </data>
+  <data name="MsgText_ConfigLocateError" xml:space="preserve">
+    <value>An error occurred while trying to locate the configuration file: {0}</value>
+  </data>
+  <data name="MsgText_ConfigNotBackedUp" xml:space="preserve">
+    <value>Configuration has not been backed up.</value>
+  </data>
+  <data name="MsgText_ConfigNotFound" xml:space="preserve">
+    <value>The configuration file was not found for {0}. Ensure that the game is installed and was started at least once.
+
+The program will now quit.</value>
+  </data>
+  <data name="MsgText_ConfigurationWritten" xml:space="preserve">
+    <value>Configuration written!</value>
+  </data>
+  <data name="MsgText_Confirmation" xml:space="preserve">
+    <value>Confirmation</value>
+  </data>
+  <data name="MsgText_CouldNotFindEngineNameOrMode" xml:space="preserve">
+    <value>Could not find required 'engine_name' or 'engine_mode' in engine.lua.</value>
+  </data>
+  <data name="MsgText_CouldNotInferGameName" xml:space="preserve">
+    <value>Could not infer game name from the selected path: {0}. Using generic name for window title.</value>
+  </data>
+  <data name="MsgText_CouldNotParseEngineMode" xml:space="preserve">
+    <value>Could not parse engine_mode value from engine.lua.</value>
+  </data>
+  <data name="MsgText_CreateBackupPrompt" xml:space="preserve">
+    <value>Do you want to create a new backup?
+
+Any existing backup will be overwritten.</value>
+  </data>
+  <data name="MsgText_Information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="MsgText_InitManagersFailed" xml:space="preserve">
+    <value>Failed to initialize configuration managers. The file path '{Config.BaldurLuaPath}' might be invalid or inaccessible.</value>
+  </data>
+  <data name="MsgText_OptionStatusRefreshed" xml:space="preserve">
+    <value>Option status has been refreshed!</value>
+  </data>
+  <data name="MsgText_WriteOptimalChangesList" xml:space="preserve">
+    <value>The following changes will be written:
+
+- Set game speed to 40 AI Updates / Sec
+- Enable footsteps during combat
+- Enable date showing on pause
+- Enable enhanced path search
+- Disable cosmetic attacks
+
+Select OK to make changes.</value>
+  </data>
+  <data name="MultiplayerItem_DisableBanters" xml:space="preserve">
+    <value>Disable Banters</value>
+  </data>
+  <data name="MultiplayerItem_EnableChatMenu" xml:space="preserve">
+    <value>Enable Chat Menu</value>
+  </data>
+  <data name="PanelTitle_ExtendedProgramConfiguration" xml:space="preserve">
+    <value>Super Atomic Speed Fighting Action</value>
+  </data>
+  <data name="PanelTitle_GameSpeed" xml:space="preserve">
+    <value>GAME SPEED</value>
+  </data>
+  <data name="PanelTitle_Graphics" xml:space="preserve">
+    <value>GRAPHICS</value>
+  </data>
+  <data name="PanelTitle_Multiplayer" xml:space="preserve">
+    <value>MULTIPLAYER</value>
+  </data>
+  <data name="PanelTitle_Program" xml:space="preserve">
+    <value>PROGRAM</value>
+  </data>
+  <data name="ProgramOptionsOneItem_3DAcceleration" xml:space="preserve">
+    <value>3D Acceleration</value>
+  </data>
+  <data name="ProgramOptionsOneItem_3EThiefSneakAttack" xml:space="preserve">
+    <value>3E Thief Sneak Attack</value>
+  </data>
+  <data name="ProgramOptionsOneItem_AutoPauseCenter" xml:space="preserve">
+    <value>Auto Pause Center</value>
+  </data>
+  <data name="ProgramOptionsOneItem_DebugMode" xml:space="preserve">
+    <value>Debug Mode</value>
+  </data>
+  <data name="ProgramOptionsOneItem_DisableCosmeticAttacks" xml:space="preserve">
+    <value>Disable Cosmetic Attacks</value>
+  </data>
+  <data name="ProgramOptionsOneItem_DisplaySubtitles" xml:space="preserve">
+    <value>Display Subtitles</value>
+  </data>
+  <data name="ProgramOptionsOneItem_DropCapitals" xml:space="preserve">
+    <value>Drop Capitals</value>
+  </data>
+  <data name="ProgramOptionsOneItem_Infravision" xml:space="preserve">
+    <value>Infravision</value>
+  </data>
+  <data name="ProgramOptionsOneItem_MaximumHP" xml:space="preserve">
+    <value>Maximum HP</value>
+  </data>
+  <data name="ProgramOptionsOneItem_NeverShowNuisanceSOD" xml:space="preserve">
+    <value>Never Show Nuisance SOD</value>
+  </data>
+  <data name="ProgramOptionsOneItem_NightmareBonusXP" xml:space="preserve">
+    <value>Nightmare Bonus XP</value>
+  </data>
+  <data name="ProgramOptionsOneItem_NoDifficultyBasedXPBonus" xml:space="preserve">
+    <value>No Difficulty Based XP Bonus</value>
+  </data>
+  <data name="ProgramOptionsOneItem_PausingMap" xml:space="preserve">
+    <value>Pausing Map</value>
+  </data>
+  <data name="ProgramOptionsOneItem_RangedWeaponSwitching" xml:space="preserve">
+    <value>Ranged Weapon Switching</value>
+  </data>
+  <data name="ProgramOptionsOneItem_RenderExploredMap" xml:space="preserve">
+    <value>Render Explored Map</value>
+  </data>
+  <data name="ProgramOptionsOneItem_ShowCharacterHP" xml:space="preserve">
+    <value>Show Character HP</value>
+  </data>
+  <data name="ProgramOptionsOneItem_SpriteMirror" xml:space="preserve">
+    <value>Sprite Mirror</value>
+  </data>
+  <data name="ProgramOptionsOneItem_TranslucentShadows" xml:space="preserve">
+    <value>Translucent Shadows</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_ActiveCampaign" xml:space="preserve">
+    <value>Active Campaign</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_AllLearnSpellInfo" xml:space="preserve">
+    <value>All Learn Spell Info</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_AutoPauseState" xml:space="preserve">
+    <value>Auto Pause State</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_CloudSavesEnabled" xml:space="preserve">
+    <value>Cloud Saves Enabled</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_ConfirmDialog" xml:space="preserve">
+    <value>Confirm Dialog</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_DuplicateFloatingText" xml:space="preserve">
+    <value>Duplicate Floating Text</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_EquipmentComparison" xml:space="preserve">
+    <value>Equipment Comparison</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_FilterGames" xml:space="preserve">
+    <value>Filter Games</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_HotkeysOnTooltips" xml:space="preserve">
+    <value>Hotkeys On Tooltips</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_JournalPopups" xml:space="preserve">
+    <value>Journal Popups</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_OverConfirmEverything" xml:space="preserve">
+    <value>Over Confirm Everything</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_QuickItemMapping" xml:space="preserve">
+    <value>Quick Item Mapping</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_RenderTravelRegions" xml:space="preserve">
+    <value>Render Travel Regions</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_ShowAOE" xml:space="preserve">
+    <value>Show AOE</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_ShowLearnableSpells" xml:space="preserve">
+    <value>Show Learnable Spells</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_ShowMessageBoxHint" xml:space="preserve">
+    <value>Show Message Box Hint</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_SuppressExtraDifficultyDamage" xml:space="preserve">
+    <value>Suppress Extra Difficulty Damage</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_TutorialState" xml:space="preserve">
+    <value>Tutorial State</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_AlwaysDither" xml:space="preserve">
+    <value>Always Dither</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_AttackSounds" xml:space="preserve">
+    <value>Attack Sounds</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_ClassicSelectionCircles" xml:space="preserve">
+    <value>Classic Selection Circles</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_ClericRangerSpells" xml:space="preserve">
+    <value>Cleric Ranger Spells</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_ColorCircles" xml:space="preserve">
+    <value>Color Circles</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_CombatUI" xml:space="preserve">
+    <value>Combat UI</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_CriticalHitScreenShake" xml:space="preserve">
+    <value>Critical Hit Screen Shake</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_EnvironmentalAudio" xml:space="preserve">
+    <value>Environmental Audio</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_ExpireTrapHighlights" xml:space="preserve">
+    <value>Expire Trap Highlights</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_ExtraFeedback" xml:space="preserve">
+    <value>Extra Feedback</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_Footsteps" xml:space="preserve">
+    <value>Footsteps</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_HealPartyOnRest" xml:space="preserve">
+    <value>Heal Party On Rest</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_HPOverHead" xml:space="preserve">
+    <value>HP Over Head</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_NightmareBonusGold" xml:space="preserve">
+    <value>Nightmare Bonus Gold</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_RenderActions" xml:space="preserve">
+    <value>Render Actions</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_Subtitles" xml:space="preserve">
+    <value>Subtitles</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_TerrainHugging" xml:space="preserve">
+    <value>Terrain Hugging</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_Weather" xml:space="preserve">
+    <value>Weather</value>
+  </data>
+  <data name="SpeedValueDisplayFormat" xml:space="preserve">
+    <value>{0} AI Updates / Sec</value>
+  </data>
+  <data name="Status_ConfigurationFound" xml:space="preserve">
+    <value>CONFIGURATION FOUND</value>
+  </data>
+  <data name="Status_ConfigurationNotFound" xml:space="preserve">
+    <value>CONFIGURATION NOT FOUND</value>
+  </data>
+  <data name="TheGame" xml:space="preserve">
+    <value>the game</value>
+  </data>
+  <data name="WindowTitle" xml:space="preserve">
+    <value>{0} - Configuration</value>
+  </data>
+</root>

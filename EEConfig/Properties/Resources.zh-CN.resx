@@ -1,0 +1,555 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutText_CreatedBy" xml:space="preserve">
+    <value>本程序由MephistoSatanDevil基于Nesae的IE-EE-Configuration项目，在GPL-3.0许可证下进行二次开发。</value>
+  </data>
+  <data name="AboutText_SpecialThanks" xml:space="preserve">
+    <value>特别感谢：CamDawg, skellytz, Bubb &amp;&amp; Sam 在开发过程中提供的帮助。</value>
+  </data>
+  <data name="About_Description" xml:space="preserve">
+    <value>一个非官方的 Infinity Engine - Enhanced Edition 游戏配置工具。
+可以轻松修改通过 Baldur.lua 文件更改的许多属性。
+
+图标由 pixabay.com 提供</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Infinity Engine - Enhanced Edition
+配置工具</value>
+  </data>
+  <data name="Error_UnknownEngineMode" xml:space="preserve">
+    <value>在engine.lua文件中发现未知engine_mode值：{0}。</value>
+  </data>
+  <data name="ExtendedProgramConfigOneItem_DisableFootstepsDuringCombat" xml:space="preserve">
+    <value>战斗中禁用脚步声</value>
+  </data>
+  <data name="ExtendedProgramConfigOneItem_DisableMovies" xml:space="preserve">
+    <value>禁用电影</value>
+  </data>
+  <data name="ExtendedProgramConfigOneItem_StrrefOn" xml:space="preserve">
+    <value>开启字符串引用 (Strref)</value>
+  </data>
+  <data name="ExtendedProgramConfigOneItem_UIEditMode" xml:space="preserve">
+    <value>UI 编辑模式</value>
+  </data>
+  <data name="ExtendedProgramConfigThreeItem_ReverseMouseWheelZoom" xml:space="preserve">
+    <value>反转鼠标滚轮缩放</value>
+  </data>
+  <data name="ExtendedProgramConfigThreeItem_ShowDateOnPause" xml:space="preserve">
+    <value>暂停时显示日期</value>
+  </data>
+  <data name="ExtendedProgramConfigThreeItem_ShowTriggersOnTab" xml:space="preserve">
+    <value>按Tab键显示触发器</value>
+  </data>
+  <data name="ExtendedProgramConfigThreeItem_SuperAtomicSpeedFightingAction" xml:space="preserve">
+    <value>超原子速度战斗行动</value>
+  </data>
+  <data name="ExtendedProgramConfigTwoItem_EnableFog" xml:space="preserve">
+    <value>启用迷雾</value>
+  </data>
+  <data name="ExtendedProgramConfigTwoItem_EnhancedPathSearch" xml:space="preserve">
+    <value>增强路径搜索</value>
+  </data>
+  <data name="ExtendedProgramConfigTwoItem_ExtraCombatInfo" xml:space="preserve">
+    <value>额外战斗信息</value>
+  </data>
+  <data name="ExtendedProgramConfigTwoItem_ForceDialogPause" xml:space="preserve">
+    <value>强制对话暂停</value>
+  </data>
+  <data name="FooterText_ChangesSavedAutomatically" xml:space="preserve">
+    <value>所有更改已自动保存。</value>
+  </data>
+  <data name="GameName_UnknownGame" xml:space="preserve">
+    <value>未知游戏</value>
+  </data>
+  <data name="GameSpeed_DisplayValue_Initial" xml:space="preserve">
+    <value>30 帧/秒</value>
+  </data>
+  <data name="GraphicsItem_AreaMapZoom" xml:space="preserve">
+    <value>区域地图缩放</value>
+  </data>
+  <data name="GraphicsItem_Backend" xml:space="preserve">
+    <value>备用渲染器</value>
+  </data>
+  <data name="GraphicsItem_EnableUIScaling" xml:space="preserve">
+    <value>启用UI缩放</value>
+  </data>
+  <data name="GraphicsItem_GreyscaleOnPause" xml:space="preserve">
+    <value>暂停时灰度显示</value>
+  </data>
+  <data name="GraphicsItem_HardwareMouseCursor" xml:space="preserve">
+    <value>硬件鼠标指针</value>
+  </data>
+  <data name="GraphicsItem_ShowBlackSpace" xml:space="preserve">
+    <value>显示黑边</value>
+  </data>
+  <data name="GraphicsItem_UseCharacterHighlights" xml:space="preserve">
+    <value>使用角色高亮</value>
+  </data>
+  <data name="GraphicsItem_UseNearestNeighbourScaling" xml:space="preserve">
+    <value>使用最近邻缩放</value>
+  </data>
+  <data name="GraphicsItem_UseSpriteOutlines" xml:space="preserve">
+    <value>使用精灵轮廓</value>
+  </data>
+  <data name="GraphicsItem_WindowFullscreen" xml:space="preserve">
+    <value>窗口 - 全屏</value>
+  </data>
+  <data name="GraphicsItem_WindowMaximized" xml:space="preserve">
+    <value>窗口 - 最大化</value>
+  </data>
+  <data name="GraphicsItem_ZoomLock" xml:space="preserve">
+    <value>缩放锁定</value>
+  </data>
+  <data name="LabelText_AIUpdatesPerSecond" xml:space="preserve">
+    <value>帧/秒</value>
+  </data>
+  <data name="MenuItem_About" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="MenuItem_AdditionalOptions" xml:space="preserve">
+    <value>附加选项</value>
+  </data>
+  <data name="MenuItem_Backup" xml:space="preserve">
+    <value>备份</value>
+  </data>
+  <data name="MenuItem_Check" xml:space="preserve">
+    <value>检查</value>
+  </data>
+  <data name="MenuItem_Create" xml:space="preserve">
+    <value>创建</value>
+  </data>
+  <data name="MenuItem_Exit" xml:space="preserve">
+    <value>退出</value>
+  </data>
+  <data name="MenuItem_Help" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="MenuItem_OpenGitHub" xml:space="preserve">
+    <value>打开 GitHub</value>
+  </data>
+  <data name="MenuItem_OpenReference" xml:space="preserve">
+    <value>打开参考文档</value>
+  </data>
+  <data name="MenuItem_Refresh" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="MenuItem_Restore" xml:space="preserve">
+    <value>恢复</value>
+  </data>
+  <data name="MenuItem_Utility" xml:space="preserve">
+    <value>实用工具</value>
+  </data>
+  <data name="MenuItem_WriteOptimalConfiguration" xml:space="preserve">
+    <value>写入推荐配置</value>
+  </data>
+  <data name="MsgText_BackupCreatedSuccessfully" xml:space="preserve">
+    <value>备份创建成功！</value>
+  </data>
+  <data name="MsgText_BackupCreationFailed" xml:space="preserve">
+    <value>备份创建失败！</value>
+  </data>
+  <data name="MsgText_BackupDoesNotExistInfo" xml:space="preserve">
+    <value>{0} 的备份文件不存在！</value>
+  </data>
+  <data name="MsgText_BackupExistsInfo" xml:space="preserve">
+    <value>{0} 的备份文件存在！
+
+创建于: {1}</value>
+  </data>
+  <data name="MsgText_BackupRestoredSuccessfully" xml:space="preserve">
+    <value>备份恢复成功！</value>
+  </data>
+  <data name="MsgText_BackupStatus" xml:space="preserve">
+    <value>备份状态</value>
+  </data>
+  <data name="MsgText_CannotAccessGameConfigProps" xml:space="preserve">
+    <value>无法访问游戏配置属性。</value>
+  </data>
+  <data name="MsgText_CannotCheckBackupStatus" xml:space="preserve">
+    <value>无法检查备份状态。配置管理器未初始化。</value>
+  </data>
+  <data name="MsgText_CannotLocateConfigManuallySelect" xml:space="preserve">
+    <value>无法自动找到 {0}。请选择它。</value>
+  </data>
+  <data name="MsgText_CannotOpenExtendedConfig" xml:space="preserve">
+    <value>无法打开扩展配置。无法访问游戏配置属性。请确保首先加载了配置文件。</value>
+  </data>
+  <data name="MsgText_CannotRefresh" xml:space="preserve">
+    <value>无法刷新。配置文件未加载或无法访问。</value>
+  </data>
+  <data name="MsgText_CannotRestoreBackup" xml:space="preserve">
+    <value>无法恢复备份！（备份文件可能不存在或无效）</value>
+  </data>
+  <data name="MsgText_CannotRestoreBackupManagersNotInit" xml:space="preserve">
+    <value>无法恢复备份。配置管理器未初始化。</value>
+  </data>
+  <data name="MsgText_ConfigBackedUpSuccessfully" xml:space="preserve">
+    <value>配置已成功备份。</value>
+  </data>
+  <data name="MsgText_ConfigLocateError" xml:space="preserve">
+    <value>尝试定位配置文件时发生错误: {0}</value>
+  </data>
+  <data name="MsgText_ConfigNotBackedUp" xml:space="preserve">
+    <value>配置未备份。</value>
+  </data>
+  <data name="MsgText_ConfigNotFound" xml:space="preserve">
+    <value>未找到 {0} 的配置文件。请确保游戏已安装并至少启动过一次。
+
+程序即将退出。</value>
+  </data>
+  <data name="MsgText_ConfigurationWritten" xml:space="preserve">
+    <value>配置已写入！</value>
+  </data>
+  <data name="MsgText_Confirmation" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="MsgText_CouldNotFindEngineNameOrMode" xml:space="preserve">
+    <value>无法在 engine.lua 文件中找到 'engine_name' 或 'engine_mode'。</value>
+  </data>
+  <data name="MsgText_CouldNotInferGameName" xml:space="preserve">
+    <value>无法从所选路径推断游戏名称：{0}。将使用通用名称作为窗口标题。</value>
+  </data>
+  <data name="MsgText_CouldNotParseEngineMode" xml:space="preserve">
+    <value>无法从 engine.lua 文件中解析 engine_mode 的值。</value>
+  </data>
+  <data name="MsgText_CreateBackupPrompt" xml:space="preserve">
+    <value>您想要创建一个新的备份吗？
+
+任何现有的备份都将被覆盖。</value>
+  </data>
+  <data name="MsgText_Information" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="MsgText_InitManagersFailed" xml:space="preserve">
+    <value>配置管理器初始化失败。文件路径 '{Config.BaldurLuaPath}' 可能无效或无法访问。</value>
+  </data>
+  <data name="MsgText_OptionStatusRefreshed" xml:space="preserve">
+    <value>选项状态已刷新！</value>
+  </data>
+  <data name="MsgText_WriteOptimalChangesList" xml:space="preserve">
+    <value>将写入以下更改：
+
+- 将游戏速度设置为 40帧/秒
+- 启用战斗中脚步声
+- 启用暂停时显示日期
+- 启用增强路径搜索
+- 禁用佯攻显示
+
+点击“确定”以进行更改。</value>
+  </data>
+  <data name="MultiplayerItem_DisableBanters" xml:space="preserve">
+    <value>禁用拌嘴</value>
+  </data>
+  <data name="MultiplayerItem_EnableChatMenu" xml:space="preserve">
+    <value>启用聊天菜单</value>
+  </data>
+  <data name="PanelTitle_ExtendedProgramConfiguration" xml:space="preserve">
+    <value>扩展程序配置</value>
+  </data>
+  <data name="PanelTitle_GameSpeed" xml:space="preserve">
+    <value>游戏速度</value>
+  </data>
+  <data name="PanelTitle_Graphics" xml:space="preserve">
+    <value>图形</value>
+  </data>
+  <data name="PanelTitle_Multiplayer" xml:space="preserve">
+    <value>多人游戏</value>
+  </data>
+  <data name="PanelTitle_Program" xml:space="preserve">
+    <value>程序</value>
+  </data>
+  <data name="ProgramOptionsOneItem_3DAcceleration" xml:space="preserve">
+    <value>3D加速</value>
+  </data>
+  <data name="ProgramOptionsOneItem_3EThiefSneakAttack" xml:space="preserve">
+    <value>3E盗贼潜行攻击</value>
+  </data>
+  <data name="ProgramOptionsOneItem_AutoPauseCenter" xml:space="preserve">
+    <value>自动暂停居中</value>
+  </data>
+  <data name="ProgramOptionsOneItem_DebugMode" xml:space="preserve">
+    <value>作弊模式</value>
+  </data>
+  <data name="ProgramOptionsOneItem_DisableCosmeticAttacks" xml:space="preserve">
+    <value>禁用佯攻显示</value>
+  </data>
+  <data name="ProgramOptionsOneItem_DisplaySubtitles" xml:space="preserve">
+    <value>显示字幕</value>
+  </data>
+  <data name="ProgramOptionsOneItem_DropCapitals" xml:space="preserve">
+    <value>首字母下沉</value>
+  </data>
+  <data name="ProgramOptionsOneItem_Infravision" xml:space="preserve">
+    <value>全队夜视能力</value>
+  </data>
+  <data name="ProgramOptionsOneItem_MaximumHP" xml:space="preserve">
+    <value>最大生命值</value>
+  </data>
+  <data name="ProgramOptionsOneItem_NeverShowNuisanceSOD" xml:space="preserve">
+    <value>不显示烦人的遮罩</value>
+  </data>
+  <data name="ProgramOptionsOneItem_NightmareBonusXP" xml:space="preserve">
+    <value>噩梦难度经验奖励</value>
+  </data>
+  <data name="ProgramOptionsOneItem_NoDifficultyBasedXPBonus" xml:space="preserve">
+    <value>无难度经验奖励</value>
+  </data>
+  <data name="ProgramOptionsOneItem_PausingMap" xml:space="preserve">
+    <value>暂停地图</value>
+  </data>
+  <data name="ProgramOptionsOneItem_RangedWeaponSwitching" xml:space="preserve">
+    <value>远程武器切换</value>
+  </data>
+  <data name="ProgramOptionsOneItem_RenderExploredMap" xml:space="preserve">
+    <value>渲染已探索地图</value>
+  </data>
+  <data name="ProgramOptionsOneItem_ShowCharacterHP" xml:space="preserve">
+    <value>显示角色生命值</value>
+  </data>
+  <data name="ProgramOptionsOneItem_SpriteMirror" xml:space="preserve">
+    <value>精灵镜像</value>
+  </data>
+  <data name="ProgramOptionsOneItem_TranslucentShadows" xml:space="preserve">
+    <value>半透明阴影</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_ActiveCampaign" xml:space="preserve">
+    <value>当前战役</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_AllLearnSpellInfo" xml:space="preserve">
+    <value>全部学习法术信息</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_AutoPauseState" xml:space="preserve">
+    <value>自动暂停状态</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_CloudSavesEnabled" xml:space="preserve">
+    <value>启用云存档</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_ConfirmDialog" xml:space="preserve">
+    <value>确认对话框</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_DuplicateFloatingText" xml:space="preserve">
+    <value>重复浮动文本</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_EquipmentComparison" xml:space="preserve">
+    <value>装备对比</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_FilterGames" xml:space="preserve">
+    <value>过滤游戏</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_HotkeysOnTooltips" xml:space="preserve">
+    <value>工具提示显示热键</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_JournalPopups" xml:space="preserve">
+    <value>日志弹窗</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_OverConfirmEverything" xml:space="preserve">
+    <value>重复确认所有内容</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_QuickItemMapping" xml:space="preserve">
+    <value>快速物品映射</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_RenderTravelRegions" xml:space="preserve">
+    <value>渲染旅行区域</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_ShowAOE" xml:space="preserve">
+    <value>显示法术范围</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_ShowLearnableSpells" xml:space="preserve">
+    <value>显示可学习法术</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_ShowMessageBoxHint" xml:space="preserve">
+    <value>显示消息框提示</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_SuppressExtraDifficultyDamage" xml:space="preserve">
+    <value>抑制额外难度伤害</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_TutorialState" xml:space="preserve">
+    <value>教程状态</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_AlwaysDither" xml:space="preserve">
+    <value>始终抖动</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_AttackSounds" xml:space="preserve">
+    <value>攻击音效</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_ClassicSelectionCircles" xml:space="preserve">
+    <value>经典选择圈</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_ClericRangerSpells" xml:space="preserve">
+    <value>牧师游侠法术</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_ColorCircles" xml:space="preserve">
+    <value>彩色圆圈</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_CombatUI" xml:space="preserve">
+    <value>战斗界面</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_CriticalHitScreenShake" xml:space="preserve">
+    <value>暴击屏幕震动</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_EnvironmentalAudio" xml:space="preserve">
+    <value>环境音效</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_ExpireTrapHighlights" xml:space="preserve">
+    <value>陷阱高亮限期</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_ExtraFeedback" xml:space="preserve">
+    <value>额外反馈</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_Footsteps" xml:space="preserve">
+    <value>脚步声</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_HealPartyOnRest" xml:space="preserve">
+    <value>休息时治疗队伍</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_HPOverHead" xml:space="preserve">
+    <value>头顶生命值</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_NightmareBonusGold" xml:space="preserve">
+    <value>噩梦难度金币奖励</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_RenderActions" xml:space="preserve">
+    <value>渲染动作</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_Subtitles" xml:space="preserve">
+    <value>启用字幕</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_TerrainHugging" xml:space="preserve">
+    <value>地形贴合</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_Weather" xml:space="preserve">
+    <value>天气</value>
+  </data>
+  <data name="SpeedValueDisplayFormat" xml:space="preserve">
+    <value>{0} 帧/秒</value>
+  </data>
+  <data name="Status_ConfigurationFound" xml:space="preserve">
+    <value>配置已找到</value>
+  </data>
+  <data name="Status_ConfigurationNotFound" xml:space="preserve">
+    <value>配置未找到</value>
+  </data>
+  <data name="TheGame" xml:space="preserve">
+    <value>游戏</value>
+  </data>
+  <data name="WindowTitle" xml:space="preserve">
+    <value>{0} - 配置</value>
+  </data>
+</root>
