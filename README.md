@@ -1,19 +1,34 @@
 # IE-EE-Configuration
 
-This is an unofficial configuration utility for Infinity Engine - Enhanced Edition games. Allows to easily change some of the properties changeable through the Baldur.lua file.
+## About This Project
 
-This program targets .NET 6. If you get an error saying that runtime is missing you need to download and install [this](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.8-windows-x64-installer)
+This project (`IE-EE-Configuration`) is a secondary development and enhancement based on the original [LionAG/IE-EE-Configuration](https://github.com/LionAG/IE-EE-Configuration/) project.
 
-![Configuration Tool View](https://github.com/Nesae-avi/IE-EE-Configuration/blob/master/ScreenCapture/View.png?raw=true)
+## Features
 
-## Games
+This is an unofficial configuration utility for **Infinity Engine - Enhanced Edition** games. It allows users to easily change some of the properties that are normally modified through the `Baldur.lua` file.
 
-* Baldur's Gate I Enhanced Edition
-* Baldur's Gate II Enhanced Edition
-* Icewind Dale Enhanced Edition
-* Planescape Torment Enhanced Edition
+## Key Improvements
 
-# Compilation
+Compared to the original [LionAG/IE-EE-Configuration](https://github.com/LionAG/IE-EE-Configuration/) project, this project primarily adds the following features:
 
-1. Open solution in Visual Studio 2022.
-2. Select Build -> Build Solution or press F6.
+*   **Generalization:** The tool has been improved to automatically scan and locate the configuration file (`Baldur.lua`) of Infinity Engine - Enhanced Edition games within the directory where the program executable resides, and then modify it, eliminating the need for users to specify the path manually.
+*   **Multi-language Support:** Added multi-language interface support.
+    *   **Currently Supported Languages:** English, Chinese.
+
+## Supported Games
+
+*   Baldur's Gate I Enhanced Edition
+*   Baldur's Gate II Enhanced Edition
+*   Enhanced Edition Trilogy
+*   Icewind Dale Enhanced Edition
+*   Planescape Torment Enhanced Edition
+
+## Usage
+
+Download and extract this program into your game directory, then run it.
+
+## Building from Source
+
+*   Open the solution in Visual Studio 2022.
+*   Select Build -> Build Solution or press F6.
