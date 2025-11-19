@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutText_CreatedBy" xml:space="preserve">
+    <value>Ce programme a été réadapté par MephistoSatanDevil à partir du projet IE-EE-Configuration de Nesae, sous licence GPL-3.0.</value>
+  </data>
+  <data name="AboutText_SpecialThanks" xml:space="preserve">
+    <value>Remerciements spéciaux : CamDawg, skellytz, Bubb &amp;&amp; Sam pour leur aide lors du développement.</value>
+  </data>
+  <data name="About_Description" xml:space="preserve">
+    <value>Un outil de configuration non officiel pour les jeux Infinity Engine - Enhanced Edition.
+Permet de modifier facilement de nombreuses propriétés via le fichier Baldur.lua.
+
+Les icônes sont fournies par pixabay.com</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Infinity Engine - Enhanced Edition
+Outil de Configuration</value>
+  </data>
+  <data name="Error_UnknownEngineMode" xml:space="preserve">
+    <value>Valeur engine_mode inconnue trouvée dans le fichier engine.lua : {0}.</value>
+  </data>
+  <data name="ExtendedProgramConfigOneItem_DisableFootstepsDuringCombat" xml:space="preserve">
+    <value>Désactiver les bruits de pas en combat</value>
+  </data>
+  <data name="ExtendedProgramConfigOneItem_DisableMovies" xml:space="preserve">
+    <value>Désactiver les cinématiques</value>
+  </data>
+  <data name="ExtendedProgramConfigOneItem_StrrefOn" xml:space="preserve">
+    <value>Activer les références de chaînes (Strref)</value>
+  </data>
+  <data name="ExtendedProgramConfigOneItem_UIEditMode" xml:space="preserve">
+    <value>Mode édition de l'interface</value>
+  </data>
+  <data name="ExtendedProgramConfigThreeItem_ReverseMouseWheelZoom" xml:space="preserve">
+    <value>Inverser le zoom de la molette de la souris</value>
+  </data>
+  <data name="ExtendedProgramConfigThreeItem_ShowDateOnPause" xml:space="preserve">
+    <value>Afficher la date en pause</value>
+  </data>
+  <data name="ExtendedProgramConfigThreeItem_ShowTriggersOnTab" xml:space="preserve">
+    <value>Afficher les déclencheurs avec Tab</value>
+  </data>
+  <data name="ExtendedProgramConfigThreeItem_SuperAtomicSpeedFightingAction" xml:space="preserve">
+    <value>Action de combat à vitesse super atomique</value>
+  </data>
+  <data name="ExtendedProgramConfigTwoItem_EnableFog" xml:space="preserve">
+    <value>Activer le brouillard</value>
+  </data>
+  <data name="ExtendedProgramConfigTwoItem_EnhancedPathSearch" xml:space="preserve">
+    <value>Recherche de chemin améliorée</value>
+  </data>
+  <data name="ExtendedProgramConfigTwoItem_ExtraCombatInfo" xml:space="preserve">
+    <value>Informations de combat supplémentaires</value>
+  </data>
+  <data name="ExtendedProgramConfigTwoItem_ForceDialogPause" xml:space="preserve">
+    <value>Forcer la pause des dialogues</value>
+  </data>
+  <data name="FooterText_ChangesSavedAutomatically" xml:space="preserve">
+    <value>Tous les changements ont été enregistrés automatiquement.</value>
+  </data>
+  <data name="GameName_UnknownGame" xml:space="preserve">
+    <value>Jeu inconnu</value>
+  </data>
+  <data name="GameSpeed_DisplayValue_Initial" xml:space="preserve">
+    <value>30 Images par seconde</value>
+  </data>
+  <data name="GraphicsItem_AreaMapZoom" xml:space="preserve">
+    <value>Zoom de la carte de zone</value>
+  </data>
+  <data name="GraphicsItem_Backend" xml:space="preserve">
+    <value>Moteur de rendu de secours</value>
+  </data>
+  <data name="GraphicsItem_EnableUIScaling" xml:space="preserve">
+    <value>Activer la mise à l'échelle de l'interface</value>
+  </data>
+  <data name="GraphicsItem_GreyscaleOnPause" xml:space="preserve">
+    <value>Niveaux de gris en pause</value>
+  </data>
+  <data name="GraphicsItem_HardwareMouseCursor" xml:space="preserve">
+    <value>Curseur souris matériel</value>
+  </data>
+  <data name="GraphicsItem_ShowBlackSpace" xml:space="preserve">
+    <value>Afficher les bordures noires</value>
+  </data>
+  <data name="GraphicsItem_UseCharacterHighlights" xml:space="preserve">
+    <value>Utiliser les surbrillances des personnages</value>
+  </data>
+  <data name="GraphicsItem_UseNearestNeighbourScaling" xml:space="preserve">
+    <value>Utiliser le redimensionnement par plus proche voisin</value>
+  </data>
+  <data name="GraphicsItem_UseSpriteOutlines" xml:space="preserve">
+    <value>Utiliser les contours des sprites</value>
+  </data>
+  <data name="GraphicsItem_WindowFullscreen" xml:space="preserve">
+    <value>Fenêtre - Plein écran</value>
+  </data>
+  <data name="GraphicsItem_WindowMaximized" xml:space="preserve">
+    <value>Fenêtre - Maximisée</value>
+  </data>
+  <data name="GraphicsItem_ZoomLock" xml:space="preserve">
+    <value>Verrouillage du zoom</value>
+  </data>
+  <data name="LabelText_AIUpdatesPerSecond" xml:space="preserve">
+    <value>Images par seconde</value>
+  </data>
+  <data name="MenuItem_About" xml:space="preserve">
+    <value>À propos</value>
+  </data>
+  <data name="MenuItem_AdditionalOptions" xml:space="preserve">
+    <value>Options supplémentaires</value>
+  </data>
+  <data name="MenuItem_Backup" xml:space="preserve">
+    <value>Sauvegarde</value>
+  </data>
+  <data name="MenuItem_Check" xml:space="preserve">
+    <value>Vérifier</value>
+  </data>
+  <data name="MenuItem_Create" xml:space="preserve">
+    <value>Créer</value>
+  </data>
+  <data name="MenuItem_Exit" xml:space="preserve">
+    <value>Quitter</value>
+  </data>
+  <data name="MenuItem_Help" xml:space="preserve">
+    <value>Aide</value>
+  </data>
+  <data name="MenuItem_OpenGitHub" xml:space="preserve">
+    <value>Ouvrir GitHub</value>
+  </data>
+  <data name="MenuItem_OpenReference" xml:space="preserve">
+    <value>Ouvrir la documentation</value>
+  </data>
+  <data name="MenuItem_Refresh" xml:space="preserve">
+    <value>Actualiser</value>
+  </data>
+  <data name="MenuItem_Restore" xml:space="preserve">
+    <value>Restaurer</value>
+  </data>
+  <data name="MenuItem_Utility" xml:space="preserve">
+    <value>Utilitaires</value>
+  </data>
+  <data name="MenuItem_WriteOptimalConfiguration" xml:space="preserve">
+    <value>Écrire la configuration recommandée</value>
+  </data>
+  <data name="MsgText_BackupCreatedSuccessfully" xml:space="preserve">
+    <value>Sauvegarde créée avec succès !</value>
+  </data>
+  <data name="MsgText_BackupCreationFailed" xml:space="preserve">
+    <value>Échec de la création de la sauvegarde !</value>
+  </data>
+  <data name="MsgText_BackupDoesNotExistInfo" xml:space="preserve">
+    <value>Le fichier de sauvegarde pour {0} n'existe pas !</value>
+  </data>
+  <data name="MsgText_BackupExistsInfo" xml:space="preserve">
+    <value>Le fichier de sauvegarde pour {0} existe !
+
+Créé le : {1}</value>
+  </data>
+  <data name="MsgText_BackupRestoredSuccessfully" xml:space="preserve">
+    <value>Sauvegarde restaurée avec succès !</value>
+  </data>
+  <data name="MsgText_BackupStatus" xml:space="preserve">
+    <value>État de la sauvegarde</value>
+  </data>
+  <data name="MsgText_CannotAccessGameConfigProps" xml:space="preserve">
+    <value>Impossible d'accéder aux propriétés de configuration du jeu.</value>
+  </data>
+  <data name="MsgText_CannotCheckBackupStatus" xml:space="preserve">
+    <value>Impossible de vérifier l'état de la sauvegarde. Le gestionnaire de configuration n'est pas initialisé.</value>
+  </data>
+  <data name="MsgText_CannotLocateConfigManuallySelect" xml:space="preserve">
+    <value>Impossible de trouver automatiquement {0}. Veuillez le sélectionner.</value>
+  </data>
+  <data name="MsgText_CannotOpenExtendedConfig" xml:space="preserve">
+    <value>Impossible d'ouvrir la configuration étendue. Impossible d'accéder aux propriétés de configuration du jeu. Assurez-vous qu'un fichier de configuration est d'abord chargé.</value>
+  </data>
+  <data name="MsgText_CannotRefresh" xml:space="preserve">
+    <value>Impossible d'actualiser. Le fichier de configuration n'est pas chargé ou inaccessible.</value>
+  </data>
+  <data name="MsgText_CannotRestoreBackup" xml:space="preserve">
+    <value>Impossible de restaurer la sauvegarde ! (Le fichier de sauvegarde peut être inexistant ou invalide)</value>
+  </data>
+  <data name="MsgText_CannotRestoreBackupManagersNotInit" xml:space="preserve">
+    <value>Impossible de restaurer la sauvegarde. Le gestionnaire de configuration n'est pas initialisé.</value>
+  </data>
+  <data name="MsgText_ConfigBackedUpSuccessfully" xml:space="preserve">
+    <value>Configuration sauvegardée avec succès.</value>
+  </data>
+  <data name="MsgText_ConfigLocateError" xml:space="preserve">
+    <value>Une erreur s'est produite en tentant de localiser le fichier de configuration : {0}</value>
+  </data>
+  <data name="MsgText_ConfigNotBackedUp" xml:space="preserve">
+    <value>Configuration non sauvegardée.</value>
+  </data>
+  <data name="MsgText_ConfigNotFound" xml:space="preserve">
+    <value>Fichier de configuration pour {0} non trouvé. Assurez-vous que le jeu est installé et a été lancé au moins une fois.
+
+Le programme va maintenant se terminer.</value>
+  </data>
+  <data name="MsgText_ConfigurationWritten" xml:space="preserve">
+    <value>Configuration écrite !</value>
+  </data>
+  <data name="MsgText_Confirmation" xml:space="preserve">
+    <value>Confirmation</value>
+  </data>
+  <data name="MsgText_CouldNotFindEngineNameOrMode" xml:space="preserve">
+    <value>Impossible de trouver 'engine_name' ou 'engine_mode' dans le fichier engine.lua.</value>
+  </data>
+  <data name="MsgText_CouldNotInferGameName" xml:space="preserve">
+    <value>Impossible de déduire le nom du jeu à partir du chemin sélectionné : {0}. Un nom générique sera utilisé comme titre de fenêtre.</value>
+  </data>
+  <data name="MsgText_CouldNotParseEngineMode" xml:space="preserve">
+    <value>Impossible d'analyser la valeur engine_mode du fichier engine.lua.</value>
+  </data>
+  <data name="MsgText_CreateBackupPrompt" xml:space="preserve">
+    <value>Voulez-vous créer une nouvelle sauvegarde ?
+
+Toute sauvegarde existante sera écrasée.</value>
+  </data>
+  <data name="MsgText_Information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="MsgText_InitManagersFailed" xml:space="preserve">
+    <value>L'initialisation du gestionnaire de configuration a échoué. Le chemin de fichier '{Config.BaldurLuaPath}' est peut-être invalide ou inaccessible.</value>
+  </data>
+  <data name="MsgText_OptionStatusRefreshed" xml:space="preserve">
+    <value>Statut des options actualisé !</value>
+  </data>
+  <data name="MsgText_WriteOptimalChangesList" xml:space="preserve">
+    <value>Les modifications suivantes seront appliquées :
+
+- Définir la vitesse du jeu sur 40 IPS
+- Activer les bruits de pas en combat
+- Activer l'affichage de la date en pause
+- Activer la recherche de chemin améliorée
+- Désactiver l'affichage des attaques factices
+
+Cliquez sur "OK" pour apporter les modifications.</value>
+  </data>
+  <data name="MultiplayerItem_DisableBanters" xml:space="preserve">
+    <value>Désactiver les dialogues secondaires</value>
+  </data>
+  <data name="MultiplayerItem_EnableChatMenu" xml:space="preserve">
+    <value>Activer le menu de discussion</value>
+  </data>
+  <data name="PanelTitle_ExtendedProgramConfiguration" xml:space="preserve">
+    <value>Configuration étendue du programme</value>
+  </data>
+  <data name="PanelTitle_GameSpeed" xml:space="preserve">
+    <value>Vitesse du jeu</value>
+  </data>
+  <data name="PanelTitle_Graphics" xml:space="preserve">
+    <value>Graphismes</value>
+  </data>
+  <data name="PanelTitle_Multiplayer" xml:space="preserve">
+    <value>Multijoueur</value>
+  </data>
+  <data name="PanelTitle_Program" xml:space="preserve">
+    <value>Programme</value>
+  </data>
+  <data name="ProgramOptionsOneItem_3DAcceleration" xml:space="preserve">
+    <value>Accélération 3D</value>
+  </data>
+  <data name="ProgramOptionsOneItem_3EThiefSneakAttack" xml:space="preserve">
+    <value>Attaque sournoise du voleur 3E</value>
+  </data>
+  <data name="ProgramOptionsOneItem_AutoPauseCenter" xml:space="preserve">
+    <value>Centrage automatique à la pause</value>
+  </data>
+  <data name="ProgramOptionsOneItem_DebugMode" xml:space="preserve">
+    <value>Mode triche</value>
+  </data>
+  <data name="ProgramOptionsOneItem_DisableCosmeticAttacks" xml:space="preserve">
+    <value>Désactiver l'affichage des attaques factices</value>
+  </data>
+  <data name="ProgramOptionsOneItem_DisplaySubtitles" xml:space="preserve">
+    <value>Afficher les sous-titres</value>
+  </data>
+  <data name="ProgramOptionsOneItem_DropCapitals" xml:space="preserve">
+    <value>Lettrines</value>
+  </data>
+  <data name="ProgramOptionsOneItem_Infravision" xml:space="preserve">
+    <value>Vision nocturne de l'équipe</value>
+  </data>
+  <data name="ProgramOptionsOneItem_MaximumHP" xml:space="preserve">
+    <value>Points de vie maximum</value>
+  </data>
+  <data name="ProgramOptionsOneItem_NeverShowNuisanceSOD" xml:space="preserve">
+    <value>Ne pas afficher les masques gênants</value>
+  </data>
+  <data name="ProgramOptionsOneItem_NightmareBonusXP" xml:space="preserve">
+    <value>Bonus d'XP en mode cauchemar</value>
+  </data>
+  <data name="ProgramOptionsOneItem_NoDifficultyBasedXPBonus" xml:space="preserve">
+    <value>Aucun bonus d'XP basé sur la difficulté</value>
+  </data>
+  <data name="ProgramOptionsOneItem_PausingMap" xml:space="preserve">
+    <value>Carte en pause</value>
+  </data>
+  <data name="ProgramOptionsOneItem_RangedWeaponSwitching" xml:space="preserve">
+    <value>Changement d'arme à distance</value>
+  </data>
+  <data name="ProgramOptionsOneItem_RenderExploredMap" xml:space="preserve">
+    <value>Rendu de la carte explorée</value>
+  </data>
+  <data name="ProgramOptionsOneItem_ShowCharacterHP" xml:space="preserve">
+    <value>Afficher les PV des personnages</value>
+  </data>
+  <data name="ProgramOptionsOneItem_SpriteMirror" xml:space="preserve">
+    <value>Miroir des sprites</value>
+  </data>
+  <data name="ProgramOptionsOneItem_TranslucentShadows" xml:space="preserve">
+    <value>Ombres translucides</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_ActiveCampaign" xml:space="preserve">
+    <value>Campagne active</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_AllLearnSpellInfo" xml:space="preserve">
+    <value>Toutes les infos d'apprentissage des sorts</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_AutoPauseState" xml:space="preserve">
+    <value>État de la pause automatique</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_CloudSavesEnabled" xml:space="preserve">
+    <value>Activer les sauvegardes cloud</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_ConfirmDialog" xml:space="preserve">
+    <value>Boîte de dialogue de confirmation</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_DuplicateFloatingText" xml:space="preserve">
+    <value>Texte flottant en double</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_EquipmentComparison" xml:space="preserve">
+    <value>Comparaison d'équipement</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_FilterGames" xml:space="preserve">
+    <value>Filtrer les jeux</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_HotkeysOnTooltips" xml:space="preserve">
+    <value>Afficher les raccourcis dans les infobulles</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_JournalPopups" xml:space="preserve">
+    <value>Pop-up du journal</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_OverConfirmEverything" xml:space="preserve">
+    <value>Tout reconfirmer</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_QuickItemMapping" xml:space="preserve">
+    <value>Mappage rapide d'objets</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_RenderTravelRegions" xml:space="preserve">
+    <value>Rendu des régions de voyage</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_ShowAOE" xml:space="preserve">
+    <value>Afficher la zone d'effet</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_ShowLearnableSpells" xml:space="preserve">
+    <value>Afficher les sorts apprenables</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_ShowMessageBoxHint" xml:space="preserve">
+    <value>Afficher l'indice de la boîte de message</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_SuppressExtraDifficultyDamage" xml:space="preserve">
+    <value>Supprimer les dégâts supplémentaires liés à la difficulté</value>
+  </data>
+  <data name="ProgramOptionsThreeItem_TutorialState" xml:space="preserve">
+    <value>État du tutoriel</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_AlwaysDither" xml:space="preserve">
+    <value>Toujours tramer</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_AttackSounds" xml:space="preserve">
+    <value>Bruits d'attaque</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_ClassicSelectionCircles" xml:space="preserve">
+    <value>Cercles de sélection classiques</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_ClericRangerSpells" xml:space="preserve">
+    <value>Sorts de clerc et de rôdeur</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_ColorCircles" xml:space="preserve">
+    <value>Cercles colorés</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_CombatUI" xml:space="preserve">
+    <value>Interface de combat</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_CriticalHitScreenShake" xml:space="preserve">
+    <value>Secousse d'écran des coups critiques</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_EnvironmentalAudio" xml:space="preserve">
+    <value>Audio environnemental</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_ExpireTrapHighlights" xml:space="preserve">
+    <value>Expiration des surbrillances des pièges</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_ExtraFeedback" xml:space="preserve">
+    <value>Retour supplémentaire</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_Footsteps" xml:space="preserve">
+    <value>Bruits de pas</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_HealPartyOnRest" xml:space="preserve">
+    <value>Soigner l'équipe en reposant</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_HPOverHead" xml:space="preserve">
+    <value>PV au-dessus de la tête</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_NightmareBonusGold" xml:space="preserve">
+    <value>Bonus d'or en mode cauchemar</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_RenderActions" xml:space="preserve">
+    <value>Rendu des actions</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_Subtitles" xml:space="preserve">
+    <value>Activer les sous-titres</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_TerrainHugging" xml:space="preserve">
+    <value>Épouser le terrain</value>
+  </data>
+  <data name="ProgramOptionsTwoItem_Weather" xml:space="preserve">
+    <value>Météo</value>
+  </data>
+  <data name="SpeedValueDisplayFormat" xml:space="preserve">
+    <value>{0} IPS</value>
+  </data>
+  <data name="Status_ConfigurationFound" xml:space="preserve">
+    <value>Configuration trouvée</value>
+  </data>
+  <data name="Status_ConfigurationNotFound" xml:space="preserve">
+    <value>Configuration non trouvée</value>
+  </data>
+  <data name="TheGame" xml:space="preserve">
+    <value>Jeu</value>
+  </data>
+  <data name="WindowTitle" xml:space="preserve">
+    <value>{0} - Configuration</value>
+  </data>
+</root>
