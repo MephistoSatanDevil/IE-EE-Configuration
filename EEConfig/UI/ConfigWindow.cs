@@ -62,7 +62,8 @@ namespace EEConfig.UI
             { 14, "Game Options,No Difficulty Based XP Bonus" },
             { 15, "Game Options,Infravision" },
             { 16, "Game Options,Render Explored Map" },
-            { 17, "Game Options,3E Thief Sneak Attack" }
+            { 17, "Game Options,3E Thief Sneak Attack" },
+            { 18, "Game Options,Render Dynamic Search Map" },
         };
 
         readonly Dictionary<int, string> ProgramOptionsTwo_Properties = new()
@@ -521,7 +522,8 @@ namespace EEConfig.UI
                 Resources.ProgramOptionsOneItem_NoDifficultyBasedXPBonus,
                 Resources.ProgramOptionsOneItem_Infravision,
                 Resources.ProgramOptionsOneItem_RenderExploredMap,
-                Resources.ProgramOptionsOneItem_3EThiefSneakAttack
+                Resources.ProgramOptionsOneItem_3EThiefSneakAttack,
+                Resources.ProgramOptionsOneItem_RenderDynamicSearchMap
             });
 
             checkedListBox_ProgramOptionsTwo.Items.Clear();

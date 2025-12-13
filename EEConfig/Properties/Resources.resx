@@ -552,6 +552,9 @@ Select OK to make changes.</value>
   <data name="Status_ConfigurationNotFound" xml:space="preserve">
     <value>CONFIGURATION NOT FOUND</value>
   </data>
+  <data name="ProgramOptionsOneItem_RenderDynamicSearchMap" xml:space="preserve">
+    <value>Render Dynamic Search Map</value>
+  </data>
   <data name="TheGame" xml:space="preserve">
     <value>the game</value>
   </data>

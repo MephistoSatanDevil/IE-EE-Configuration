@@ -546,6 +546,9 @@
   <data name="Status_ConfigurationNotFound" xml:space="preserve">
     <value>配置未找到</value>
   </data>
+  <data name="ProgramOptionsOneItem_RenderDynamicSearchMap" xml:space="preserve">
+    <value>渲染地图动态交互</value>
+  </data>
   <data name="TheGame" xml:space="preserve">
     <value>游戏</value>
   </data>

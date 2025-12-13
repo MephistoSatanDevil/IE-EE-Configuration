@@ -944,6 +944,15 @@ namespace EEConfig.Properties {
         }
         
         /// <summary>
+        ///   查找类似 Render Dynamic Search Map 的本地化字符串。
+        /// </summary>
+        internal static string ProgramOptionsOneItem_RenderDynamicSearchMap {
+            get {
+                return ResourceManager.GetString("ProgramOptionsOneItem_RenderDynamicSearchMap", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 Render Explored Map 的本地化字符串。
         /// </summary>
         internal static string ProgramOptionsOneItem_RenderExploredMap {

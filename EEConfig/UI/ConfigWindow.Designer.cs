@@ -52,7 +52,6 @@
             checkedListBox_MultiplayerOptions = new CheckedListBox();
             panel_GameConfigStatus = new Panel();
             label_GameConfigNameStatus = new Label();
-            label3 = new Label();
             menuStrip1 = new MenuStrip();
             utilityToolStripMenuItem = new ToolStripMenuItem();
             refreshToolStripMenuItem = new ToolStripMenuItem();
@@ -67,6 +66,7 @@
             openReferenceToolStripMenuItem = new ToolStripMenuItem();
             openGitHubToolStripMenuItem = new ToolStripMenuItem();
             aboutToolStripMenuItem1 = new ToolStripMenuItem();
+            label3 = new Label();
             openFileDialog_SelectGameConfig = new OpenFileDialog();
             panel_GraphicOptions.SuspendLayout();
             panel1.SuspendLayout();
@@ -103,7 +103,7 @@
             panel_GraphicOptions.Location = new Point(6, 22);
             panel_GraphicOptions.Margin = new Padding(2);
             panel_GraphicOptions.Name = "panel_GraphicOptions";
-            panel_GraphicOptions.Size = new Size(231, 367);
+            panel_GraphicOptions.Size = new Size(231, 399);
             panel_GraphicOptions.TabIndex = 0;
             // 
             // panel1
@@ -112,7 +112,7 @@
             panel1.Controls.Add(label_SpeedValueDisplay);
             panel1.Controls.Add(label2);
             panel1.Controls.Add(hScrollBar_GameSpeed);
-            panel1.Location = new Point(10, 261);
+            panel1.Location = new Point(10, 297);
             panel1.Margin = new Padding(2);
             panel1.Name = "panel1";
             panel1.Size = new Size(211, 83);
@@ -177,7 +177,7 @@
             panel4.Location = new Point(256, 23);
             panel4.Margin = new Padding(2);
             panel4.Name = "panel4";
-            panel4.Size = new Size(727, 366);
+            panel4.Size = new Size(727, 398);
             panel4.TabIndex = 4;
             // 
             // checkedListBox_ProgramOptionsThree
@@ -191,7 +191,7 @@
             checkedListBox_ProgramOptionsThree.Location = new Point(485, 29);
             checkedListBox_ProgramOptionsThree.Margin = new Padding(2);
             checkedListBox_ProgramOptionsThree.Name = "checkedListBox_ProgramOptionsThree";
-            checkedListBox_ProgramOptionsThree.Size = new Size(211, 324);
+            checkedListBox_ProgramOptionsThree.Size = new Size(211, 342);
             checkedListBox_ProgramOptionsThree.TabIndex = 4;
             checkedListBox_ProgramOptionsThree.ItemCheck += CheckedListBox_ProgramOptionsThree_ItemCheck;
             // 
@@ -206,7 +206,7 @@
             checkedListBox_ProgramOptionsTwo.Location = new Point(258, 30);
             checkedListBox_ProgramOptionsTwo.Margin = new Padding(2);
             checkedListBox_ProgramOptionsTwo.Name = "checkedListBox_ProgramOptionsTwo";
-            checkedListBox_ProgramOptionsTwo.Size = new Size(211, 324);
+            checkedListBox_ProgramOptionsTwo.Size = new Size(211, 342);
             checkedListBox_ProgramOptionsTwo.TabIndex = 3;
             checkedListBox_ProgramOptionsTwo.ItemCheck += CheckedListBox_ProgramOptionsTwo_ItemCheck;
             // 
@@ -229,11 +229,11 @@
             checkedListBox_ProgramOptionsOne.CheckOnClick = true;
             checkedListBox_ProgramOptionsOne.Enabled = false;
             checkedListBox_ProgramOptionsOne.FormattingEnabled = true;
-            checkedListBox_ProgramOptionsOne.Items.AddRange(new object[] { "Translucent Shadows", "Never Show Nuisance SOD", "Display Subtitles", "Sprite Mirror", "Drop Capitals", "3D Acceleration", "Debug Mode", "Disable Cosmetic Attacks", "Pausing Map", "Ranged Weapon Switching", "Nightmare Bonus XP", "Auto Pause Center", "Maximum HP", "Show Character HP", "No Difficulty Based XP Bonus", "Infravision", "Render Explored Map", "3E Thief Sneak Attack" });
+            checkedListBox_ProgramOptionsOne.Items.AddRange(new object[] { "Translucent Shadows", "Never Show Nuisance SOD", "Display Subtitles", "Sprite Mirror", "Drop Capitals", "3D Acceleration", "Debug Mode", "Disable Cosmetic Attacks", "Pausing Map", "Ranged Weapon Switching", "Nightmare Bonus XP", "Auto Pause Center", "Maximum HP", "Show Character HP", "No Difficulty Based XP Bonus", "Infravision", "Render Explored Map", "3E Thief Sneak Attack", "Render Dynamic Search Map" });
             checkedListBox_ProgramOptionsOne.Location = new Point(30, 30);
             checkedListBox_ProgramOptionsOne.Margin = new Padding(2);
             checkedListBox_ProgramOptionsOne.Name = "checkedListBox_ProgramOptionsOne";
-            checkedListBox_ProgramOptionsOne.Size = new Size(211, 324);
+            checkedListBox_ProgramOptionsOne.Size = new Size(211, 342);
             checkedListBox_ProgramOptionsOne.TabIndex = 1;
             checkedListBox_ProgramOptionsOne.ItemCheck += CheckedListBox_ProgramOptionsOne_ItemCheck;
             // 
@@ -242,7 +242,6 @@
             panel_Content.Controls.Add(panel6);
             panel_Content.Controls.Add(panel3);
             panel_Content.Controls.Add(panel_GameConfigStatus);
-            panel_Content.Controls.Add(label3);
             panel_Content.Controls.Add(panel4);
             panel_Content.Controls.Add(panel_GraphicOptions);
             panel_Content.Controls.Add(menuStrip1);
@@ -257,10 +256,10 @@
             panel6.BorderStyle = BorderStyle.FixedSingle;
             panel6.Controls.Add(panel2);
             panel6.Controls.Add(label4);
-            panel6.Location = new Point(256, 407);
+            panel6.Location = new Point(255, 439);
             panel6.Margin = new Padding(2);
             panel6.Name = "panel6";
-            panel6.Size = new Size(727, 146);
+            panel6.Size = new Size(727, 139);
             panel6.TabIndex = 8;
             // 
             // panel2
@@ -268,10 +267,10 @@
             panel2.Controls.Add(checkedListBox_ExtendedProgramConfigurationThree);
             panel2.Controls.Add(checkedListBox_ExtendedProgramConfigurationTwo);
             panel2.Controls.Add(checkedListBox_ExtendedProgramConfigurationOne);
-            panel2.Location = new Point(-1, 30);
+            panel2.Location = new Point(0, 36);
             panel2.Margin = new Padding(2);
             panel2.Name = "panel2";
-            panel2.Size = new Size(724, 114);
+            panel2.Size = new Size(724, 109);
             panel2.TabIndex = 5;
             // 
             // checkedListBox_ExtendedProgramConfigurationThree
@@ -336,7 +335,7 @@
             panel3.BorderStyle = BorderStyle.FixedSingle;
             panel3.Controls.Add(label9);
             panel3.Controls.Add(checkedListBox_MultiplayerOptions);
-            panel3.Location = new Point(6, 408);
+            panel3.Location = new Point(7, 438);
             panel3.Margin = new Padding(2);
             panel3.Name = "panel3";
             panel3.Size = new Size(231, 73);
@@ -373,7 +372,7 @@
             // 
             panel_GameConfigStatus.BorderStyle = BorderStyle.FixedSingle;
             panel_GameConfigStatus.Controls.Add(label_GameConfigNameStatus);
-            panel_GameConfigStatus.Location = new Point(6, 493);
+            panel_GameConfigStatus.Location = new Point(7, 518);
             panel_GameConfigStatus.Margin = new Padding(2);
             panel_GameConfigStatus.Name = "panel_GameConfigStatus";
             panel_GameConfigStatus.Size = new Size(231, 60);
@@ -383,25 +382,13 @@
             // 
             label_GameConfigNameStatus.Font = new Font("Calibri", 10.2F, FontStyle.Bold);
             label_GameConfigNameStatus.ForeColor = Color.Red;
-            label_GameConfigNameStatus.Location = new Point(0, 0);
+            label_GameConfigNameStatus.Location = new Point(-1, -1);
             label_GameConfigNameStatus.Margin = new Padding(2, 0, 2, 0);
             label_GameConfigNameStatus.Name = "label_GameConfigNameStatus";
             label_GameConfigNameStatus.Size = new Size(229, 58);
             label_GameConfigNameStatus.TabIndex = 0;
             label_GameConfigNameStatus.Text = "CONFIGURATION NOT FOUND";
             label_GameConfigNameStatus.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label3
-            // 
-            label3.Dock = DockStyle.Bottom;
-            label3.Font = new Font("Segoe UI", 9F, FontStyle.Bold | FontStyle.Italic);
-            label3.Location = new Point(0, 553);
-            label3.Margin = new Padding(2, 0, 2, 0);
-            label3.Name = "label3";
-            label3.Size = new Size(989, 35);
-            label3.TabIndex = 5;
-            label3.Text = "All changes are saved automatically.";
-            label3.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // menuStrip1
             // 
@@ -506,6 +493,18 @@
             aboutToolStripMenuItem1.Text = "About";
             aboutToolStripMenuItem1.Click += AboutToolStripMenuItem1_Click;
             // 
+            // label3
+            // 
+            label3.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            label3.Font = new Font("Segoe UI", 9F, FontStyle.Bold | FontStyle.Italic);
+            label3.Location = new Point(2, 582);
+            label3.Margin = new Padding(2, 0, 2, 0);
+            label3.Name = "label3";
+            label3.Size = new Size(989, 36);
+            label3.TabIndex = 5;
+            label3.Text = "All changes are saved automatically.";
+            label3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
             // openFileDialog_SelectGameConfig
             // 
             openFileDialog_SelectGameConfig.DefaultExt = "ini";
@@ -516,8 +515,9 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(992, 589);
+            ClientSize = new Size(992, 618);
             Controls.Add(panel_Content);
+            Controls.Add(label3);
             MainMenuStrip = menuStrip1;
             Margin = new Padding(2);
             Name = "ConfigWindow";
